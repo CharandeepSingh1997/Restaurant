@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100hv;
+    /* background-image: url("homebg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;*/
+     box-sizing: border-box;
+    overflow: hidden; 
+     
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow:overlay !important;
+    /* background-image: url("aboutbg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+     background-color:#1a1814;
+}
+/* scrollbar css */
+body::-webkit-scrollbar{
+    width:5px;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+    
+    box-shadow:  0 0 5px grey;
+}
+body::-webkit-scrollbar-thumb{
+        background-color:chocolate;
+        border-radius: 10px;
+}
+/* navbar css start */
+.navbar{
+     background-color:rgba(0, 0, 0, 0.644);
+    
+    
+     
+}
+ul a{
+    color:white!important;
+    
+    
+}
+ul .active:visited{
+    color:chocolate !important;
+}
+ ul a:hover{
+    color: chocolate!important;
+    
+    
+}
+.navbar-brand{
+    line-height: 1rem;
+    letter-spacing: 5px;
+    outline:none;
+    animation: brand 5s linear infinite;
+}
+@keyframes brand{
+    
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:slategray;
+        text-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+          color:white;
+          text-shadow:0 0 10px rgba(0, 0, 128, 0.63),
+            0 0 20px navy,
+            0 0 40px navy,
+            0 0 60px navy,
+            0 0 120px navy;
+    }
+}
+/* navbar css end */
+
+header h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+header hr{
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    color: chocolate;
+    
+}
+/* menu img css start */
+
+.flex-shrink-0{
+
+    height: 89px;
+    width: 89px;
+     border-radius: 43px;
+    border: 5px solid chocolate;
+    box-sizing:border-box;
+    
+}
+.flex-shrink-0 img{
+    height: 80px;
+    width: 80px;
+    border-radius:40px;
+    
+}
+.flex-shrink-0 img:hover{
+    transform: scale(1.2);
+}
+ .flex-shrink-0:hover{
+        animation: bordercolor 2s linear infinite;
+        
+}
+@keyframes bordercolor{
+    0%{
+        border: 5px solid red;
+        
+     }
+    15%{
+        border: 5px solid orangered;
+    }
+    30%{
+        border: 5px solid yellow;
+    }
+    45%{
+        border: 5px solid green;
+    }
+    60%{
+        border: 5px solid blue;
+    }
+    75%{
+        border: 5px solid indigo;
+    }
+    100%{
+        border: 5px solid violet;
+    }
+
+} 
+.flex-grow-1 h6{
+    color: white;
+    text-transform: capitalize;
+}
+.flex-grow-1 p{
+    color: white;
+}
+
+.flex-grow-1 h6 strong:hover{
+    color: chocolate;
+    
+}
+.btn-menu{
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+    color: white;
+    
+    
+}
+.btn-menu:hover{
+    color:chocolate !important;
+}
+
+#starter{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.animation-all{
+    animation: all-food 1s linear ;
+    
+}
+@keyframes all-food{
+    0%{
+        transform:rotateX(180deg);
+    }
+}

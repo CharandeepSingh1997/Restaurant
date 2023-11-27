@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100hv;
+    /* background-image: url("homebg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;*/
+     box-sizing: border-box;
+    overflow: hidden; 
+     
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow:overlay !important;
+    background-image: url("aboutbg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* scrollbar css */
+body::-webkit-scrollbar{
+    width:5px;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+    
+    box-shadow:  0 0 5px grey;
+}
+body::-webkit-scrollbar-thumb{
+        background-color:chocolate;
+        border-radius: 10px;
+}
+/* navbar css start */
+.navbar{
+     background-color:rgba(0, 0, 0, 0.644);
+    
+    
+     
+}
+ul a{
+    color:white!important;
+    
+    
+}
+ul .active:visited{
+    color:chocolate !important;
+}
+ ul a:hover{
+    color: chocolate!important;
+    
+    
+}
+.navbar-brand{
+    line-height: 1rem;
+    letter-spacing: 5px;
+    outline:none;
+    animation: brand 5s linear infinite;
+}
+@keyframes brand{
+    
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:slategray;
+        text-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+          color:white;
+          text-shadow:0 0 10px rgba(0, 0, 128, 0.63),
+            0 0 20px navy,
+            0 0 40px navy,
+            0 0 60px navy,
+            0 0 120px navy;
+    }
+}
+/* navbar css end */
+
+/* body content div css start */
+
+section h1{
+     
+     line-height: 1.5em;
+     text-align: center !important;
+     
+}
+section h1:hover{
+    color: white !important;
+}
+ 
+.card{
+    border: transparent;
+    background-color:rgba(0, 0, 0, 0.637);
+    color: white;
+}
+.card:hover{
+    transform: scale(1.2) !important;
+}
+.card-title{
+    padding-left: 10px;
+}
+.card-text{
+    color: rgba(210, 105, 30, 0.842);
+    padding: 10px;
+}
+.card-img-top{
+    height: 50%;
+    
+}
+

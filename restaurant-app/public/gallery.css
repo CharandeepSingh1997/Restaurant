@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100hv;
+    /* background-image: url("homebg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;*/
+     box-sizing: border-box;
+    overflow: hidden; 
+     
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow:hidden;
+    /* background-image: url("event-photographer.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+     background-color:#0c0b09;
+}
+/* navbar css start */
+.navbar{
+     background-color:rgba(0, 0, 0, 0.644);
+    border-bottom: 1px solid goldenrod;    
+    
+     
+}
+ul a{
+    color:white!important;
+    
+    
+}
+ul .active:visited{
+    color:chocolate !important;
+}
+ ul a:hover{
+    color: chocolate!important;
+    
+    
+}
+.navbar-brand{
+    line-height: 1rem;
+    letter-spacing: 5px;
+    outline:none;
+    animation: brand 5s linear infinite;
+}
+@keyframes brand{
+    
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color:slategray;
+        text-shadow: none;
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+          color:white;
+          text-shadow:0 0 10px rgba(0, 0, 128, 0.63),
+            0 0 20px navy,
+            0 0 40px navy,
+            0 0 60px navy,
+            0 0 120px navy;
+    }
+}
+/* navbar css end */
+/* body content start */
+header h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: goldenrod;
+}
+header hr{
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    color: chocolate;
+    
+}
+.col{
+    height: 200px;
+}
+.col .card{
+    height: 200px;
+    border: 1px solid goldenrod;
+
+}
+.col .card img{
+    height: 200px;
+}
+.col .card img:hover{
+    transform: scale(1.2);
+}
+.row{
+    animation:zoom 0.5s linear ;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1.5,1.5);
+    }
+    
+    100%{
+        transform: scale(1,1);
+    }
+}
